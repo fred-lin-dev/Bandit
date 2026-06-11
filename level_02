@@ -1,0 +1,25 @@
+2025-10-23
+had to use cat ./- because - is consider as an option
+
+password of the level 2:
+
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+
+2026-05-27
+what I try but didn't work:
+cat -- -
+cat -- "-"
+cat -- '-'
+
+still don't know why those above doesn't work
+
+my solution
+cat -- ~/-
+
+but
+cat ~/-
+also work
+
+password of the level 2:
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
