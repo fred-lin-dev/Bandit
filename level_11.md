@@ -1,0 +1,18 @@
+# 2026-06-11
+
+j'ai commencé pas faire un cat de mon fichier data.txt puis je essaie un truc bête:
+
+bandit10@bandit:~$ xxd data.txt
+00000000: 5647 686c 4948 4268 6333 4e33 6233 4a6b  VGhlIHBhc3N3b3Jk
+00000010: 4947 6c7a 4947 5230 556a 4533 4d32 5a61  IGlzIGR0UjE3M2Za
+00000020: 5332 4977 556c 4a7a 5245 5a54 5233 4e6e  S2IwUlJzREZTR3Nn
+00000030: 4d6c 4a58 626e 424f 566d 6f7a 6356 4a79  MlJXbnBOVmozcVJy
+00000040: 4367 3d3d 0a                             Cg==.
+
+après je me suis dit que j'ai vu un truc avec openssl mais j'ai pas trouvé la truc que je cherchais avec openssel -h.
+j'ai donc survolé vite fais la man mais j'ai rien trouvé donc je suis retourné sur la page de bandit et j'ai vu que dans les commandes utiles y'avait base64 donc j'ai look la man et j'ai vu l'option -d.
+
+base64 -d data.txt
+
+# 2026-06-27
+base64 -d data.txt
